@@ -75,6 +75,10 @@
     padding: 2em;    
   }
 
+   @media only screen and (max-width: $bp-mobile) {
+    padding: 0;    
+  }
+
 }
 .description {
   background-color: #fff;
@@ -90,6 +94,10 @@
 
     @media only screen and (max-width: $bp-small) {
     margin: 0 0 3rem 0;    
+  }
+
+   @media only screen and (max-width: $bp-mobile) {
+    margin: 0 0 1rem 0;    
   }
 
 }
